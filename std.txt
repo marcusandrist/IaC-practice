@@ -1,0 +1,9 @@
+-Create venv and install docker + docker-compose (for eventual orchestration of django and nginx)
+    -Figure out how to make a singular container hosting a django instance with an endpoint.
+    -Access that endpoint via request_lib and make sure it is structured securely.
+
+-Create a dockerfile for the django container for replicability, then instantiate an nginx image
+    -Make a functional dockerfile for the nginx image.
+    -Use docker-compose to bridge the two images and locally serve the application.
+
+-Launch a globally-exposed instance of the program and test via web browser!
